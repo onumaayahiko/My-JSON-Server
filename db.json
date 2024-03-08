@@ -9,8 +9,7 @@
       "stock_rate_id": 1,
       "stock_rate_name": "在庫評価A",
       "trade_condition_id": 1,
-      "trade_condition_name": "店頭受取のみ",
-      "memo": "商品"
+      "trade_condition_name": "店頭受取のみ"
     }
   ],
   "test": [
