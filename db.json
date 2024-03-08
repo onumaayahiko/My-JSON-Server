@@ -13,37 +13,7 @@
       "memo": "商品概要",
       "description": "商品説明商品説明商品説明商品説明",
       "point": 1000,
-      "posting_ended_at": "2024年12月31日",
-      "icons": [
-        {
-          "icon_id":  1,
-          "icon_name": "sale",
-          "image_path": "@/assets/label_sale.svg"
-        },
-        {
-          "icon_id":  2,
-          "icon_name": "new",
-          "image_path": "@/assets/label_new.svg"
-        }
-      ],
-      "genres": [
-        {
-          "genre_id":  1,
-          "genre_name":  "生活用品",
-          "major_genre_id":  1,
-          "major_genre_name":  "トイレットペーパー"
-        }
-      ],
-      "product_images": [
-        {
-          "image_number":  1,
-          "image_path": "@/assets/product_sample.jpg"
-        },
-        {
-          "image_number":  2,
-          "image_path": "@/assets/product_sample.jpg"
-        }
-      ]
+      "posting_ended_at": "2024年12月31日"
     }
   ],
   "test": [
