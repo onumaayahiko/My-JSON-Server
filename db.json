@@ -42,7 +42,7 @@
         {
           "image_number":  2,
           "image_path": "@/assets/product_sample.jpg"
-        },
+        }
       ]
     }
   ],
