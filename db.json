@@ -4,12 +4,7 @@
       "product_no": "00000001",
       "name": "商品1",
       "maker_id": 1,
-      "maker_name": "パナソニック",
-      "makertype": "AAA-001",
-      "stock_rate_id": 1,
-      "stock_rate_name": "在庫評価A",
-      "trade_condition_id": 1,
-      "trade_condition_name": "店頭受取のみ"
+      "maker_name": "パナソニック"
     }
   ],
   "test": [
