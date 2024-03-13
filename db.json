@@ -1,4 +1,220 @@
 {
-  "result_code": 1101,
-  "message": "get success"
+  "get-member": {
+    "result_code": 1101,
+    "message": "get success",
+      "items": [
+      {
+          "member_no": "999991001",
+          "member_type_id": 1,
+          "member_type_name": "個人",
+          "entried_at": "2023-09-01T00:00:00",
+          "shop_id": -1,
+          "name": "api氏名",
+          "kana": "apiかな",
+          "tel": "99999999999",
+          "department": "",
+          "job_title": "",
+          "person_in_charge": "",
+          "person_in_charge_kana": "",
+          "fax": "",
+          "zipcode": "9999999",
+          "address": "api住所",
+          "building": "api建物",
+          "birthday": "2024-02-28T00:00:00",
+          "email": "api@gmail.com",
+          "is_deleted": false,
+          "updated_at": "2024-03-06T10:56:43.23",
+          "created_at": "2023-09-08T00:00:00"
+      }
+    ]
+  },
+  "match-password": {
+    "result_code": 1101,
+    "message": "get success"
+  },
+  "update-member": {
+    "result_code": 1101,
+    "message": "get success"
+  },
+  "update-member-password": {
+    "result_code": 1101,
+    "message": "get success"
+  },
+  "get-products": {
+    "result_code": 1101,
+    "message": "get success",
+    "items": [
+      {
+        "product_no": "00000001",
+        "name": "商品1",
+        "maker_id": 1,
+        "maker_name": "パナソニック",
+        "makertype": "AAA-001",
+        "stock_rate_id": 1,
+        "stock_rate_name": "在庫評価A",
+        "trade_condition_id": 1,
+        "trade_condition_name": "店頭受取のみ",
+        "memo": "商品概要",
+        "description": "商品説明商品説明商品説明商品説明",
+        "point": 1000,
+        "posting_ended_at": "2024年12月31日",
+        "icons": [
+          {
+            "icon_id":  1,
+            "icon_name": "sale",
+            "image_path": "@/assets/label_sale.svg"
+          },
+          {
+            "icon_id":  2,
+            "icon_name": "new",
+            "image_path": "@/assets/label_new.svg"
+          }
+        ],
+        "genres": [
+          {
+            "genre_id":  101,
+            "genre_name":  "トイレットペーパー",
+            "major_genre_id":  1,
+            "major_genre_name":  "生活用品"
+          }
+        ],
+        "product_images": [
+          {
+            "image_number":  0,
+            "image_path": "@/assets/product_sample.jpg"
+          },
+          {
+            "image_number":  1,
+            "image_path": "@/assets/product_sample.jpg"
+          }
+        ]
+      },
+      {
+        "product_no": "00000002",
+        "name": "商品2",
+        "maker_id": 1,
+        "maker_name": "パナソニック",
+        "makertype": "AAA-002",
+        "stock_rate_id": 1,
+        "stock_rate_name": "在庫評価A",
+        "trade_condition_id": 1,
+        "trade_condition_name": "店頭受取のみ",
+        "memo": "商品概要",
+        "description": "商品説明商品説明商品説明商品説明",
+        "point": 1000,
+        "posting_ended_at": "2024年12月31日",
+        "icons": [
+          {
+            "icon_id":  1,
+            "icon_name": "sale",
+            "image_path": "@/assets/label_sale.svg"
+          },
+          {
+            "icon_id":  2,
+            "icon_name": "new",
+            "image_path": "@/assets/label_new.svg"
+          }
+        ],
+        "genres": [
+          {
+            "genre_id":  101,
+            "genre_name":  "トイレットペーパー",
+            "major_genre_id":  1,
+            "major_genre_name":  "生活用品"
+          }
+        ],
+        "product_images": [
+          {
+            "image_number":  1,
+            "image_path": "@/assets/product_sample.jpg"
+          },
+          {
+            "image_number":  2,
+            "image_path": "@/assets/product_sample.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "get-cart-items": {
+    "result_code": 1101,
+    "message": "get success",
+      "items": [
+      {
+          "cart_item_id": 1710227951455,
+          "quantity": 1,
+          "product": {
+              "product_no": "215-0313",
+              "name": "KB用紙（共用紙）　B4",
+              "maker_id": 1,
+              "maker_name": "コクヨ",
+              "maker_type": "KB-384",
+              "stock_rate_id": 1,
+              "stock_rate_name": "A",
+              "trade_condition_id": 3,
+              "trade_condition_name": "店頭・発送",
+              "memo": "FSC認証パルプ",
+              "description": "・サイズ：タテ364×ヨコ257mm\r\n・枚数：500枚\r\n・紙厚：64g/㎡、0.09mm\r\n・材質：FSC認証パルプ使用（FSCミックス）",
+              "point": 1720,
+              "posting_ended_at": null,
+              "icons": [
+                  {
+                      "icon_id": 3,
+                      "icon_name": "エコマーク商品",
+                      "image_path": "https://maps.app.goo.gl/n9HdD5zxbr9882da6"
+                  },
+                  {
+                      "icon_id": 4,
+                      "icon_name": "グリーン購入法適合商品",
+                      "image_path": "https://maps.app.goo.gl/n9HdD5zxbr9882da6"
+                  }
+              ],
+              "genres": [
+                  {
+                      "genre_id": 23,
+                      "genre_name": "コピー用紙",
+                      "major_genre_id": 2,
+                      "major_genre_name": "文具・事務用品"
+                  },
+                  {
+                      "genre_id": 24,
+                      "genre_name": "ノート",
+                      "major_genre_id": 2,
+                      "major_genre_name": "文具・事務用品"
+                  }
+              ],
+              "product_images": [
+                  {
+                      "image_number": 0,
+                      "image_path": "dummyImagePath215-0313_0"
+                  }
+              ]
+          },
+          "created_at": "2024-03-12T16:19:11.457"
+      },
+      {
+          "cart_item_id": 1710228099915,
+          "quantity": 1,
+          "product": {
+              "product_no": "215-0301",
+              .
+              .
+              .
+          },
+          "created_at": "2024-03-12T16:21:39.917"
+      }
+    ]
+  },
+  "add-cart-item": {
+    "result_code": 1101,
+    "message": "get success"
+  },
+  "update-cart-item-quantity": {
+    "result_code": 1101,
+    "message": "get success"
+  },
+  "delete-cart-item": {
+    "result_code": 1101,
+    "message": "get success"
+  }
 }
